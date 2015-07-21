@@ -20,9 +20,9 @@
 
 </head>
 
-<body <?php body_class(); ?>>
-    <div id="container">
-        
+    <body <?php body_class(); ?>>
+   
+         <div id="container">
             <div id="page" class="hfeed site">
                     <a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'odonovan' ); ?></a>
                     <div class="header-cont"
@@ -33,7 +33,7 @@
                             </div><!-- .site-branding -->
 
                             <nav id="site-navigation" class="main-navigation" role="navigation">
-                                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'odonovan' ); ?></button>
+                                    <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false" ><?php esc_html_e( 'MENU', 'odonovan' ); ?></button>
                                     <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
                                    
                                     

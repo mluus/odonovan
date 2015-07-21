@@ -12,9 +12,9 @@ get_header(); ?>
 
                                     <?php get_template_part( 'template-parts/content', 'page' ); ?>
 
-                    <div class="comm-archive">
-                        <a href="index.php?p=2"><h3>More...</h3></a>
-                    </div>      
+                    
+                        <a href="index.php?p=2" class="more"><h3>More archived commercials...</h3></a>
+                 
 
                             <?php endwhile; // End of the loop. ?>
                         
