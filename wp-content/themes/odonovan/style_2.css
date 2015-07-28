@@ -85,7 +85,7 @@ body {
 }
 
 body.page-id-733 {
-	background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/Contact2.jpg')!important;
+	background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/Contact2.jpg')!important;
 	background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -640,6 +640,8 @@ a:active {
         margin-right: 50px;
         
 }
+
+
 
 @media screen and (min-width: 1300px) and (max-width: 1500px) {
     .main-navigation{
@@ -1212,7 +1214,7 @@ a:active {
 ----------------------------------------------------------------*/
 
 .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height: 60px;
     width: 400px;
     background-repeat: no-repeat;
@@ -1223,7 +1225,7 @@ a:active {
 
 @media screen and (min-width: 1200px) and (max-width: 1499px) {
     .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height:60px;
     width: 400px;
     background-repeat: no-repeat;
@@ -1235,7 +1237,7 @@ a:active {
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
     .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height:80px;
     width:300px;
     background-repeat: no-repeat;
@@ -1247,7 +1249,7 @@ a:active {
 
 @media screen and (min-width: 700px) and (max-width: 899px) {
     .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height:100px;
     width: 300px;
     background-repeat: no-repeat;
@@ -1260,7 +1262,7 @@ a:active {
 
 @media screen and (min-width: 500px) and (max-width: 699px) {
     .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height:100px;
     width: 300px;
     background-repeat: no-repeat;
@@ -1273,7 +1275,7 @@ a:active {
 
 @media screen and (min-width: 200px) and (max-width: 499px) {
     .site-title{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/logo6.png'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/logo6.png'); 
     height:80px;
     width: 310px;
     background-repeat: no-repeat;
@@ -1282,6 +1284,7 @@ a:active {
     margin-left: 6%;
     }
 }
+
 
 
 
@@ -1475,8 +1478,6 @@ object {
 
 #container{
     flex: 1;
-    -webkit-flex: 1 ;
-    -ms-flex: 1 ;
   
 }
 
@@ -1506,8 +1507,7 @@ object {
 
 @media screen and (min-width: 100px) and (max-width: 499px) {
     .entry-content{
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-left: 10px;
     }
     
     #footer{
@@ -1515,35 +1515,35 @@ object {
     }   
     
  #commercial{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/commercial_mob1.jpg');
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/commercial_mob1.jpg');
     background-repeat: no-repeat;
     background-size: 110%;
     margin-bottom: 10px;
     /*margin-top: 10px;*/
     /*margin-left: 5%;*/
     height: 139px;
-    width:100%;
+    width:140%;
     /*max-height: 100%;*/
     /*max-width: 100%;*/
    
  }
  
  #promos {
-     background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/promos_mob.jpg');
+     background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/promos_mob.jpg');
      background-repeat: no-repeat;
      background-size: 110%;
      margin-bottom: 10px;
 /*     margin-top: 10px;
      margin-left:10%;*/
      height: 150px;
-     width: 100%;
+     width: 140%;
 /*     max-height: 100%;
      max-width: 100%; */
  }
  
 
   #shorts{
-    background-image: url('http://www.pod-edit.com/wp-content/uploads/2015/07/shorts_mob.jpg'); 
+    background-image: url('http://odonovan:8888//wp-content/uploads/2015/07/shorts_mob.jpg'); 
     background-repeat: no-repeat;
     background-size: 110%;
     margin-bottom: 10px;
@@ -1551,7 +1551,7 @@ object {
     margin-left: 10%;*/
     /*width: auto;*/
     height: 150px;
-    width: 100%;
+    width: 140%;
 /*    max-height: 40%;
     max-width: 100%;*/
  }
