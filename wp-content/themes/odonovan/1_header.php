@@ -6,22 +6,22 @@
  *
  * @package odonovan
  */
- 
-  if( is_front_page() ){
+ if( is_front_page() ){
 
         include_once('mobile-detect/Mobile_Detect.php');
         $detect = new Mobile_Detect(); 
 
-        if ( $detect->is_mobile() ) {
-            $redirect_url = 'http://pod-edit.com/mobile/';
+        if ( $detect->isMobile() ) {
+            $redirect_url = 'http://odonovan:8888/mobile/';
             header('Location: ' . $redirect_url ); // Redirect the user
         }
     }
-	
+    
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
   
 <head>
+   
             <meta charset="<?php bloginfo( 'charset' ); ?>">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="profile" href="http://gmpg.org/xfn/11">
